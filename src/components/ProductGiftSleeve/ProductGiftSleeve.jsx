@@ -4,7 +4,7 @@ import styles from "./ProductGiftSleeve.module.css";
 const ProductGiftSleeve = () => {
   return (
     <section className={styles.product_gift__body}>
-      <div className={styles.product_gift__content}>
+      <aside className={styles.product_gift__content}>
         <h3>Festive giving</h3>
         <h2>A complimentary sleeve for your gifts</h2>
         <p>
@@ -15,7 +15,7 @@ const ProductGiftSleeve = () => {
         <button>
           Explore gifts <img src="" alt="" />
         </button>
-      </div>
+      </aside>
       <div className={styles.product_gift__banner}>
         <img
           className={styles.product_gift__image}

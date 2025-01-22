@@ -4,7 +4,8 @@ import searchBar from "../../assets/icons/search-bar.svg"
 import styles from './Header.module.css'
 const Header = () => {
     return (
-        <div>
+        <header>
+            <nav className={styles.primary__header}>
             <ul className={styles.primary__navbar}>
                 {navItems.map((item) => (
                     <li key={item.name}>
@@ -17,11 +18,13 @@ const Header = () => {
                 <li><button><img src={searchBar} alt="" /></button></li>
             </ul>
 
-            <ul>
-                
+            <ul className={styles.secondary__navbar}>
+                <li>Log in</li>
+                <li>Cabinet</li>
+                <li>Cart</li>
             </ul>
-
-        </div>
+            </nav>
+        </header>
     )
 }
 

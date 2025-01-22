@@ -1,3 +1,4 @@
+
 export const navItems = [
   { name: "New & Notable", link: "" },
   { name: "Skin Care", link: "skin" },
@@ -29,3 +30,42 @@ export const productStandards = [
       "We appear on PETA's internationally recognised vegan and cruelty-free lists."
   }
 ];
+
+export const footerLinks = {
+  "Orders and support": [
+      { name: "Contact us", link: "#" },
+      { name: "FAQs", link: "#" },
+      { name: "Shipping", link: "#" },
+      { name: "Returns", link: "#" },
+      { name: "Order history", link: "#" },
+      { name: "Check gift card balance", link: "#" },
+      { name: "Terms and conditions", link: "#" },
+  ],
+  "Services": [
+      { name: "Live assistance", link: "#" },
+      { name: "Corporate gifts", link: "#" },
+      { name: "Facial Appointments", link: "#" },
+      { name: "Click and Collect", link: "#" },
+      { name: "Video consultation", link: "#" },
+  ],
+  "Location preferences": [
+      { name: "Shipping: Hong Kong, SAR", link: "#" },
+      { name: "Language: English", link: "#" },
+      { name: "Language: 繁體中文", link: "#" },
+  ],
+  "About": [
+      { name: "Our Story", link: "#" },
+      { name: "Foundation", link: "#" },
+      { name: "Careers", link: "#" },
+      { name: "Privacy Policy", link: "#" },
+      { name: "Accessibility", link: "#" },
+      { name: "Cookie Policy", link: "#" },
+  ],
+  "Social media": [
+      { name: "Instagram", link: "#" },
+      { name: "Twitter", link: "#" },
+      { name: "LinkedIn", link: "#" },
+      { name: "WeChat", link: "#" },
+      { name: "Weibo", link: "#" },
+  ],
+};

@@ -7,6 +7,8 @@ import ProductCorporateGift from "./components/ProductCorporateGift/ProductCorpo
 import "./styles/global.css";
 import "./styles/variables.css";
 import ProductOffering from "./components/ProductOffering/ProductOffering";
+import ProductGuidance from "./components/ProductGuidance/ProductGuidance";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -16,8 +18,10 @@ const App = () => {
       <ProductLabTest />
       <ProductGiftSleeve />
       <ProductCorporateGift />
+      <ProductGuidance />
       <ProductOffering />
       <ProductStandards />
+      <Footer />
 
     </>
   );
