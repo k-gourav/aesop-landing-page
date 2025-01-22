@@ -1,0 +1,16 @@
+.product_gift__body{
+    display: flex;
+    justify-content: space-around;
+}
+.product_gift__banner{
+    display: flex;
+    width: 65%;
+}
+.product_gift__image{
+    width: 886.2px;
+}
+.product_gift__content{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}

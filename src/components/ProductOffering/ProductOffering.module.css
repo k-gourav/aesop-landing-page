@@ -1,0 +1,17 @@
+.product_offer__body{
+    display: flex;
+    justify-content: space-around;
+}
+.product_offer__banner{
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;
+}
+.product_offer__video{
+    width: 886.2px;
+}
+.product_offer__content{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.product_test__body{
+    display: flex;
+    justify-content: space-between;
+}
+.product_test__banner{
+    width: 65%;
+}
+.product_test__image{
+    width: 886.2px;
+}
+.product_test__content{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
