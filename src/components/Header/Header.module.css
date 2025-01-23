@@ -1,10 +1,26 @@
 .primary__header{
     display: flex;
     justify-content: space-between;
-    padding: 0 3rem;
+    padding: 1rem 3rem;
+    background-color: var(--color-text-inverse);
 }
 .primary__navbar{
     display: flex;
     list-style: none;
     align-items: center;
+    gap: 0.625rem;
+}
+.primary__navbar li, .secondary__navbar li{
+    padding: 4px;
+    font-weight: 500;
+}
+.secondary__navbar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 0.625rem;
+}
+.primary__search{
+    border: none;
+    background: transparent;
 }

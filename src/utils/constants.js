@@ -1,17 +1,24 @@
 
-export const navItems = [
-  { name: "New & Notable", link: "" },
+export const primaryNavItems = [
+  { name: "New & Notable", link: "#" },
   { name: "Skin Care", link: "skin" },
   { name: "Hand & Body", link: "body-hand" },
   { name: "Home", link: "home" },
   { name: "Hair", link: "hair" },
   { name: "Fragrance", link: "fragrance" },
   { name: "Kits & Travel", link: "kits-travel" },
-  { name: "Gifts", link: "/gift-guide" },
+  { name: "Gifts", link: "gift-guide" },
   { name: "Read", link: "the-athenaeum" },
-  { name: "Stores", link: "" },
+  { name: "Stores", link: "#" },
   { name: "Facial Appointments", link: "facial-appointments" },
 ];
+
+export const secondaryNavItems = [
+  { name: "Log in", link: "#"},
+  { name: "Cabinet", link: "#"},
+  { name: "Cart", link: "#"},
+  
+]
 
 export const productStandards = [
   {

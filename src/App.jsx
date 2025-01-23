@@ -9,6 +9,7 @@ import "./styles/variables.css";
 import ProductOffering from "./components/ProductOffering/ProductOffering";
 import ProductGuidance from "./components/ProductGuidance/ProductGuidance";
 import Footer from "./components/Footer/Footer";
+import ProductQuote from "./components/ProductQuote/ProductQuote";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <ProductCorporateGift />
       <ProductGuidance />
       <ProductOffering />
+      <ProductQuote />
       <ProductStandards />
       <Footer />
 

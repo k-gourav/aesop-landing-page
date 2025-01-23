@@ -1,0 +1,15 @@
+.product_quote__body{
+    padding: 9.375rem 2.5rem;
+}
+.product_quote__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product_quote__content{
+    font-size: 1.875rem;
+}
+.product_quote__content, .product_quote__author{
+    width: 45%;
+    text-align: center;
+}
