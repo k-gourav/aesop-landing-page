@@ -27,14 +27,14 @@ export const skinCareSwiper = [
     alt: "skincare-product-1",
     class: "first",
     title: "Brilliant Performers Duo",
-    content: "Synchronised support to refine and replenish the skin"
+    content: "Synchronised support to refine and replenish the skin",
   },
   {
     url: skincare2,
     alt: "skincare-product-2",
     class: "second",
     title: "Lucent Facial Concentrate",
-    content: "A Vitamin C-rich layering serum"
+    content: "A Vitamin C-rich layering serum",
   },
 ];
 
@@ -77,6 +77,11 @@ export const footerLinks = {
     { name: "Shipping: Hong Kong, SAR", link: "#" },
     { name: "Language: English", link: "#" },
     { name: "Language: 繁體中文", link: "#" },
+  ],
+  Sustainability: [
+    {
+      name: "All Aesop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation. Learn more",
+    },
   ],
   About: [
     { name: "Our Story", link: "#" },

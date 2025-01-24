@@ -29,22 +29,14 @@ const Footer = () => {
                         <ul>
                             {footerLinks[section].map((item, idx) => (
                                 <li key={idx}>
-                                    <a href={item.link} className={styles.link}>
+                                    {item.link ? <a href={item.link} className={styles.link}>
                                         {item.name}
-                                    </a>
+                                    </a> : item.name}
                                 </li>
                             ))}
                         </ul>
                     </div>
                 ))}
-            </div>
-            <div className={styles.sustainability}>
-                <h4>Sustainability</h4>
-                <p>
-                    All Aesop products are vegan, and we do not test our formulations or
-                    ingredients on animals. We are Leaping Bunny approved and a Certified
-                    B Corporation. <a href="#" className={styles.link}>Learn more</a>.
-                </p>
             </div>
         </footer>
     );
