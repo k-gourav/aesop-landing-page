@@ -10,12 +10,14 @@ import ProductOffering from "./components/ProductOffering/ProductOffering";
 import ProductGuidance from "./components/ProductGuidance/ProductGuidance";
 import Footer from "./components/Footer/Footer";
 import ProductQuote from "./components/ProductQuote/ProductQuote";
+import SkinCareProduct from "./components/SkinCareProduct/SkinCareProduct";
 
 const App = () => {
   return (
     <>
       <PromoBanner />
       <Header />
+      <SkinCareProduct />
       <ProductLabTest />
       <ProductGiftSleeve />
       <ProductCorporateGift />
